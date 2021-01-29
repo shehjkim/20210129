@@ -2,9 +2,21 @@
     pageEncoding="UTF-8"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 
-<style type="text/css">
+<style>
 	tr.bId:hover {background-color : lightyellow;}
 	body{background-image:url("/20210129/image/front.jpg");}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 70%;
+  bgcolor:white;
+}
+th{
+  border: 1px solid #000000;
+  text-align: center;
+  padding: 5px;
+}
+
 </style>
 
 <script type="text/javascript"> 
@@ -32,7 +44,7 @@
 							<td align="center" width="50">
 							<input type="text"id="bId" name="bId" value="${vo.bId }"></td>
 							<th width="100">작성자</th>
-							<td align="center" width="50">${vo.bName }</td>
+							<td align="center" width="100">${vo.bName }</td>
 							<th width="100">작성일자</th>
 							<td align="center" width="100">${vo.bDate }</td>
 							<th width="100">조회수</th>

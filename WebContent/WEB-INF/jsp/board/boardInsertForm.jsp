@@ -3,6 +3,17 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <style type="text/css">
 	body{background-image:url("/20210129/image/front.jpg");}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+  bgcolor:white;
+}
+th {
+  border: 1px solid #000000;
+  text-align: center;
+  padding: 5px;
+}
 </style>
 <jsp:include page = "../main/menu.jsp" />
 <div class="w3-content" style="max-width:2000px; margin-top:46px"  align="center">	
